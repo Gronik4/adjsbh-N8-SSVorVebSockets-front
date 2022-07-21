@@ -1,0 +1,50 @@
+{
+  "name": "adjsbh-n8-ssvorvebsockets-front",
+  "version": "1.0.0",
+  "description": "Продвинутый JS в браузере - Задача №8 - \"EventSource, Websockets\". Клиентская часть.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "doc": "jsdoc -c jsdoc.conf.json",
+    "preshow:doc": "npm run doc",
+    "show:doc": "live-server doc",
+    "preshow:dist": "npm run build",
+    "show:dist": "live-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gronik4/adjsbh-N8-SSVorVebSockets-front.git"
+  },
+  "author": "Gronik4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gronik4/adjsbh-N8-SSVorVebSockets-front/issues"
+  },
+  "homepage": "https://github.com/Gronik4/adjsbh-N8-SSVorVebSockets-front#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "babel": "^6.23.0",
+    "babel-jest": "^27.4.6",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "svg-inline-loader": "^0.8.2",
+    "terser-webpack-plugin": "^5.3.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.3"
+  },
+  "dependencies": {
+    "core-js": "^3.20.3"
+  }
+}

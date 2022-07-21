@@ -1,0 +1,84 @@
+body {margin: 0; padding: 0;}
+* {box-sizing: border-box;}
+body {background: #e8d98b;}
+.container {
+  width: 96%;
+  height: 96%;
+  margin: 1px auto;
+  text-align: center;
+  background: #fff;
+  color: blue;
+  position: relative;
+}
+  h3 {margin: 2px auto;}
+  .common {
+    display: flex;
+    flex-wrap:nowrap;
+    align-items: start;
+  }
+    .popup {
+      position: absolute;
+      top:30px;
+      width: 90%;
+      background: #D4FDED;
+      text-align: center;
+      border: 1px solid #000;
+      border-radius: 6px;
+    }
+      .nikName {border-radius: 5px;}
+    .online {
+      width: 25%;
+      border: 1px solid #000;
+      border-radius: 5px;
+      margin: 20px 5px;
+      overflow: auto;
+    }
+      .head {margin: 0 7px 0;}
+      .tikN {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+        margin: 0px;
+        padding: 0px;
+      }
+        .circ {
+          width: 10px;
+          height:10px;
+          margin: 0 5px;
+          padding: 0;
+        }
+        .h5 {margin: 0;}
+    .messages {
+      width: 73%;
+      border: 1px solid #000;
+      border-radius: 5px;
+      margin-top: 10px;
+      margin-right: 5px;
+    }
+      .showM {
+        width: 99%;
+        height: 500px;
+        padding: 0 3px;
+        overflow-y: auto;
+        
+      }
+      .messag {
+        width: max-content;
+        text-align: left;
+        background: #F1EAD9;
+        margin: 5px 5px;
+        padding: 3px;
+        border-radius: 5px;
+      }
+      .right {text-align:right; background: #ecf5dc;}
+        .mesHead {font-size:13px; margin:1px;}
+        .messText {margin: 0;}
+        .colr_name {color: red;}
+      .form {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        padding: 5px;
+      }
+        .text {width:100%;margin-right:3px;}
